@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
+  res.sendFile(path.join(__dirname, "html_folder", "index.html"));
 });
 
 app.route("/bmicalculator")
@@ -58,5 +58,5 @@ function interpretBMI(bmi, age, gender) {
   }
 }
 app.listen(port, () => {
-  console.log(`Server is listening at http://localhost:${port}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
