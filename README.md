@@ -1,4 +1,5 @@
 # BMI_calc_backend by Magzhan Torebek SE-2205
+# Before running the server, make sure that you have opened the files and folders correctly.
 # Write in bash terminal:
 # 1)npm install
 # 2)node app.js
