@@ -8,6 +8,6 @@ To run the server, execute the following commands in your Bash terminal:
 ```bash
 npm install
 node app.js
-
-## If you did it correct you will see output: "Server is running on port 3000"
-## Open the http://localhost:3000 and check the BMI calculator.
+```
+If you did it correct you will see output: "Server is running on port 3000"
+Open the http://localhost:3000 and check the BMI calculator.
